@@ -6,9 +6,9 @@
 
 > [!NOTE]
 > This is a fork of [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise)
-> with OpenCode support. Install commands below point at this repository
-> (`potentialwook/vibe-wise-opencode`). Upstream Claude Code releases may be
-> newer than this fork.
+> that adds OpenCode support. It is **not** published as a Claude Code plugin;
+> install VibeWise for Claude Code from upstream, and use the OpenCode
+> instructions below with this fork.
 
 A Claude Code plugin that puts learning first and keeps you in control while AI writes the code you designed. Claude **asks for your approach first**, helps you examine tradeoffs, and explains unfamiliar concepts. You shape the design and decide when it's ready to implement. Claude writes the code, then explains what it changed and why.
 
@@ -45,7 +45,7 @@ marketplace. Choose one installation method; you don't need both.
 Run these commands **one at a time** in Claude Code. First, add the marketplace:
 
 ```text
-/plugin marketplace add potentialwook/vibe-wise-opencode
+/plugin marketplace add nykooi1/vibe-wise
 ```
 
 After it finishes, install the plugin:
