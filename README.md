@@ -4,6 +4,12 @@
 
 **You build. AI writes.**
 
+> [!NOTE]
+> This is a fork of [nykooi1/vibe-wise](https://github.com/nykooi1/vibe-wise)
+> with OpenCode support. Install commands below point at this repository
+> (`potentialwook/vibe-wise-opencode`). Upstream Claude Code releases may be
+> newer than this fork.
+
 A Claude Code plugin that puts learning first and keeps you in control while AI writes the code you designed. Claude **asks for your approach first**, helps you examine tradeoffs, and explains unfamiliar concepts. You shape the design and decide when it's ready to implement. Claude writes the code, then explains what it changed and why.
 
 For anyone who wants to learn as they build—whether you're an aspiring engineer, a junior developer, or an experienced engineer exploring an unfamiliar stack. Practice planning how the pieces fit together, anticipating failures, and checking the result while keeping ownership of the decisions.
@@ -39,7 +45,7 @@ marketplace. Choose one installation method; you don't need both.
 Run these commands **one at a time** in Claude Code. First, add the marketplace:
 
 ```text
-/plugin marketplace add nykooi1/vibe-wise
+/plugin marketplace add potentialwook/vibe-wise-opencode
 ```
 
 After it finishes, install the plugin:
@@ -256,7 +262,7 @@ on your `PATH`, and [Bun](https://bun.com) (OpenCode uses it to run the plugin).
 1. Clone this repository anywhere and remember the path:
 
    ```sh
-   git clone https://github.com/nykooi1/vibe-wise.git ~/tools/vibe-wise
+   git clone https://github.com/potentialwook/vibe-wise-opencode.git ~/tools/vibe-wise
    ```
 
 2. Run the installer. It symlinks the skills, commands, and the compaction
