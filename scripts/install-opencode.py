@@ -134,7 +134,7 @@ def main():
     if exit_code:
         print("completed with problems", file=sys.stderr)
     else:
-        print(f"done. start `opencode` in any project and run /learn")
+        print(f"done. start `opencode` in any project and run /vibe-wise-learn")
     sys.exit(exit_code)
 
 
